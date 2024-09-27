@@ -22,7 +22,7 @@ public class TipoCambioRangoService {
 
         logger.info("Obteniendo tipo de cambio para el rango: {} - {}", fechainit, fechafin);
 
-        // No se necesita conversión de fechas, ya que el servicio espera fechas en formato dd/MM/yyyy
+
         String endpoint = "https://banguat.gob.gt/variables/ws/TipoCambio.asmx";
         String action = "http://www.banguat.gob.gt/variables/ws/TipoCambioRango";
         String soapRequest =
